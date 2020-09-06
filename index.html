@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <div class="page1">
+
+ <header>
+     <img class="logo" src="css/image/logow.jpg" alt="">
+        <h1>HOTEL JOYFUL</h1>
+    </header>
+    <nav></nav>
+
+         <div class="info">
+        <h2>Welcome</h2>
+
+     <div class="para">   <p>To <strong>HotelJoyful.</strong><br>
+       <br>"In  urge to provide best taste."</p>
+             </div>
+
+        </div>
+    <details>
+
+        <summary>Filters</summary>
+        <button id="veggifilter">Veggi dishes</button>
+         <button id="alcohol">Non-Alcololic</button>
+    </details>
+
+    </div>
+            <h1 class="menu">MENU</h1>
+
+    <main class="productList">
+        <template id="productTemplate">
+        <article class="product">
+            <img class="productImage" src="https://kea-alt-del.dk/t5/site/imgs/medium/rodbede-cabanossi-md.jpg" alt=""/>
+               <div class="icons">
+          <img class="vegetarian hidden" src="imgs/Vegetarian.svg" alt="" >
+                    <img class="alcohol hidden" src="imgs/alcohol.svg" alt="" >
+        </div>
+
+          <section class="productBody">
+
+                <h3 class="full_name">Names: Caviar bruschetta </h3>
+              <p class="short-des"></p>
+
+                <h4 class="price">Price: 49/-</h4>
+              <div class="dispri">
+              <p>Discount:- </p>
+                  <h4 class="discountp hidden"></h4></div>
+              <button class="but">
+                    More</button>
+            </section>
+        </article>
+    </template>
+
+    </main>
+
+    <footer>
+        <p>Thankyou For your beautiful time. Please eatwell and be well.<strong> Best wishes</strong>
+        <br>
+    <br>
+        Family: <strong>Hotel Joyful</strong>
+        <p class="eml">email:Hotel_Joyful@comingsoon.com</p>
+    </footer>
+
+    <div class="modal-background hide">
+  <div class="modal-content">
+    <h3 class="modal-name">NAME</h3>
+    <img class="modal-image" src="" alt=""  >
+    <p class="modal-description">LONG DESCRIPTION</p>
+    <h4 class="modal-price">PRICE</h4>
+  </div>
+</div>
+
+
+   <script src="js/script.js"></script>
+</body></html>
